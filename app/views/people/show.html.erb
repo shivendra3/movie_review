@@ -1,0 +1,49 @@
+ <div class="row">
+  <div class="col-sm-6 image-responsive">
+  
+<%= image_tag @person.image.url(:medium) %>
+</div>
+
+<div class="col-sm-6">
+<div class="table-responsive table-striped">
+  <table class="table">
+  <tr>
+  <td>
+<p>
+  <strong>People id:</strong>
+  <%= @person.PeopleID %>
+</p>
+</td>
+</tr>
+<tr>
+<td>
+
+<p>
+  <strong>Name:</strong>
+  <%= @person.Name %>
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>
+  <strong>Twitter link:</strong>
+  <%= @person.twitter_link %>
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>
+  <strong>Age:</strong>
+  <%= @person.age %>
+</p>
+</td>
+</tr>
+<tr><td> </td></tr>
+</table>
+</div>
+</div>
+</div>
+<%= link_to 'Edit', edit_person_path(@person) %> |
+<%= link_to 'Back', people_path %>

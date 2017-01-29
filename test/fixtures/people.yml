@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  PeopleID: 1
+  Name: MyString
+  twitter_link: MyString
+  age: 1
+
+two:
+  PeopleID: 1
+  Name: MyString
+  twitter_link: MyString
+  age: 1

@@ -1,0 +1,12 @@
+
+<div class="row">
+  <% @people.each do |person| %>
+    <div class="col-sm-6 col-md-3">
+      <div class="thumbnail">
+        <%= link_to (image_tag person.image.url(:medium), class: 'image'), person %>
+      </div>
+    </div>
+  <% end %>
+</div>
+
+<%= link_to 'New Person', new_person_path %>
