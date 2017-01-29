@@ -102,6 +102,7 @@ GEM
     minitest (5.9.1)
     multi_json (1.12.1)
     multipart-post (2.0.0)
+    net-ssh (4.0.1)
     nokogiri (1.6.8.1)
       mini_portile2 (~> 2.1.0)
     orm_adapter (0.5.0)
@@ -200,6 +201,7 @@ DEPENDENCIES
   devise (~> 4.2)
   jbuilder (~> 2.0)
   jquery-rails
+  net-ssh
   paperclip (~> 5.1)
   pg (= 0.18.1)
   rails (= 4.2.6)
